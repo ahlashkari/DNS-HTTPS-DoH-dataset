@@ -90,7 +90,7 @@ Source IPs used to create DoH tunnels:
 Based on the defined scenario in previous section, we implemented the infrastructure and captured the traffic. Table 2 presents the details of packets and flows captured by using browsers/tools and DoH servers.
 
 Table 2: Dataset details
-'''
+```
 Browser/tool 	    DoH Server 	  Packets 	  Flows 	  Type
 Google Chrome     AdGuard     5609K       105141    HTTPS (Non-DoH and Benign DoH)
                   Cloudflare  6117K       132552
@@ -120,8 +120,7 @@ Iodine          AdGuard       3938K       11336
 	              Cloudflare    5932K       14110
                 Google DNS    73459K      12192
                 Quad9         22668K      8975
-
-
+```
 
 ### 4. Feature extraction
 

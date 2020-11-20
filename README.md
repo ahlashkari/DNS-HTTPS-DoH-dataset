@@ -91,7 +91,7 @@ Based on the defined scenario in previous section, we implemented the infrastruc
 
 Table 2: Dataset details
 ```
-Browser/tool 	    DoH Server 	  Packets 	  Flows 	  Type
+Browser/tool 	  DoH Server   Packets 	  Flows 	  Type
 Google Chrome     AdGuard     5609K       105141    HTTPS (Non-DoH and Benign DoH)
                   Cloudflare  6117K       132552
                   Google DNS  5878K       108680
@@ -100,7 +100,7 @@ Google Chrome     AdGuard     5609K       105141    HTTPS (Non-DoH and Benign Do
 
 
 Mozilla Firefox  AdGuard      4943K       50485     
-	               Cloudflare   4299K       90260
+	         Cloudflare   4299K       90260
                  Google DNS   6413K       138422
                  Quad9        4956K       92670
 
@@ -112,12 +112,12 @@ dns2tcp         AdGuard       1281K       5459    Malicious DoH
                 Quad9         8750K       138588
 	
 DNSCat2         AdGuard       1301K       5369
-	              Cloudflare    12346K      9230
+	        Cloudflare    12346K      9230
                 Google DNS    48069K      11915
                 Quad9         9309K       9108
 
 Iodine          AdGuard       3938K       11336
-	              Cloudflare    5932K       14110
+	        Cloudflare    5932K       14110
                 Google DNS    73459K      12192
                 Quad9         22668K      8975
 ```
@@ -128,10 +128,10 @@ DoHMeter is a tool developed in Python to extract statistical and time-series fe
 
 Table 3: List of extracted statistical traffic features
 ```
-Parameter 	 Feature
-F1 	          Number of flow bytes sent
-F2 	          Rate of flow bytes sent
-F3 	          Number of flow bytes received
+Parameter 	Feature
+F1 	        Number of flow bytes sent
+F2 	        Rate of flow bytes sent
+F3 	        Number of flow bytes received
 F4          	Rate of flow bytes received
 F5          	Mean Packet Length
 F6          	Median Packet Length
